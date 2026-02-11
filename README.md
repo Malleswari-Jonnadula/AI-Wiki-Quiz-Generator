@@ -19,20 +19,23 @@
 
 ## Setup
 ### Backend
-cd backend
-python -m venv venv && source venv/bin/activate
+cd backend  
+python -m venv venv  
+source venv/bin/activate  
 pip install -r requirements.txt
-# Create .env with DATABASE_URL and GEMINI_API_KEY
+# Create .env with DATABASE_URL and GEMINI_API_KEY  
 uvicorn app.main:app --reload
 
 ### Frontend
-cd frontend && npm install && npm run dev
+cd frontend 
+npm install  
+npm run dev  
 
 ## API Endpoints
-POST /api/generate   — Generate quiz from URL
-GET  /api/preview    — Preview article title
-GET  /api/history    — List all past quizzes
-GET  /api/history/{id} — Get full quiz by ID
+POST /api/generate   — Generate quiz from URL  
+GET  /api/preview    — Preview article title  
+GET  /api/history    — List all past quizzes  
+GET  /api/history/{id} — Get full quiz by ID  
 
 ## LangChain Prompt Templates
 See backend/app/llm_service.py for QUIZ_PROMPT and ENTITY_PROMPT templates.
