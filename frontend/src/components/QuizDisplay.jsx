@@ -8,7 +8,7 @@ export default function QuizDisplay({ data }) {
   const btnStyle = (active) => ({
     padding: '8px 20px', borderRadius: 20, cursor: 'pointer',
     fontSize: 14, fontWeight: 600, marginRight: 8,
-    background: active ? '#2563eb' : '#f3f4f6',
+    background: active ? '#2563eb' : '#eeeff1',
     color: active ? '#fff' : '#374151',
     border: active ? '2px solid #2563eb' : '1px solid #e5e7eb',
   });
@@ -52,7 +52,7 @@ export default function QuizDisplay({ data }) {
       )}
 
       <div style={{ marginBottom: 20 }}>
-        <button style={btnStyle(mode === 'view')} onClick={() => setMode('view')}>View Answers</button>
+        <button style={btnStyle(mode === 'view')} onClick={() => setMode('view')}>View Quiz</button>
         <button style={btnStyle(mode === 'take')} onClick={() => setMode('take')}>Take Quiz</button>
       </div>
 

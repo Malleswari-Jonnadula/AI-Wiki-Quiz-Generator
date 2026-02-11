@@ -1,0 +1,141 @@
+{
+  "id": 5,
+  "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+  "title": "Alan Turing",
+  "summary": "Alan Mathison Turing(/ˈtjʊərɪŋ/; 23 June 1912 – 7 June 1954) was an Englishmathematician,computer scientist,logician,cryptanalyst,philosopherandtheoretical biologist.[6]He was highly influential in the development oftheoretical computer science, providing a formalisation of the concepts ofalgorithmandcomputationwith theTuring machine, which can be considered a model of a general-purposecomputer.[7][8][9]Turing is widely considered to be the father of theoretical computer science.[10] Born in London, Turing was raised insouthern England. He graduated fromKing's College, Cambridge, and in 1938, earned a doctorate degree fromPrinceton University. DuringWorld War II, Turing worked for theGovernment Code and Cypher SchoolatBletchley Park, Britain'scodebreakingcentre that producedUltraintelligence. He ledHut 8, the section responsible for German naval cryptanalysis. Turing devised techniques for speeding the breaking of Germanciphers, including improvements to the pre-war Polishbombamethod, anelectromechanicalmachine that could find settings for theEnigma machine. He played a crucial role in cracking intercepted messages that enabled theAlliesto defeat theAxis powersin theBattle of the Atlanticand other engagements.[11][12] After the war, Turing worked at theNational Physical Laboratory, where he designed theAutomatic Computing Engine, one of the first designs for a stored-program computer. In 1948, Turing joinedMax Newman'sComputing Machine Laboratoryat theUniversity of Manchester, where he contributed to the development of earlyManchester computers[13]and became interested inmathematical biology. Turing wrote on the chemical basis ofmorphogenesis[14][1]and predictedoscillating chemical reactionssuch as theBelousov–Zhabotinsky reaction, first observed in the 1960s. Despite these accomplishments, he was never fully recognised during his lifetime because much of his work was covered by theOfficial Secrets Act.[15]",
+  "sections": [
+    "Early life and education",
+    "Career and research",
+    "Personal life",
+    "Death",
+    "Government apology and pardon"
+  ],
+  "key_entities": {
+    "people": [
+      "Alan Turing",
+      "Max Newman",
+      "Gordon Brown",
+      "Queen Elizabeth II"
+    ],
+    "organizations": [
+      "King's College, Cambridge",
+      "Princeton University",
+      "Government Code and Cypher School",
+      "National Physical Laboratory",
+      "University of Manchester",
+      "Bank of England"
+    ],
+    "locations": [
+      "London",
+      "Bletchley Park",
+      "Manchester",
+      "England"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Alan Turing is widely considered to be the father of which field?",
+      "options": [
+        "Theoretical computer science",
+        "Theoretical biology",
+        "Modern philosophy",
+        "Cryptanalysis"
+      ],
+      "answer": "Theoretical computer science",
+      "difficulty": "easy",
+      "explanation": "The article states that Turing is widely considered to be the father of theoretical computer science."
+    },
+    {
+      "question": "During World War II, which section at Bletchley Park was Turing responsible for leading?",
+      "options": [
+        "Hut 6",
+        "Hut 8",
+        "Hut 4",
+        "Hut 12"
+      ],
+      "answer": "Hut 8",
+      "difficulty": "easy",
+      "explanation": "The text mentions that Turing led Hut 8, the section responsible for German naval cryptanalysis."
+    },
+    {
+      "question": "Which electromechanical machine did Turing improve upon to help find settings for the Enigma machine?",
+      "options": [
+        "The Automatic Computing Engine",
+        "The Manchester Mark 1",
+        "The bomba",
+        "The Turing machine"
+      ],
+      "answer": "The bomba",
+      "difficulty": "medium",
+      "explanation": "Turing devised improvements to the pre-war Polish bomba method, an electromechanical machine used to find settings for the Enigma."
+    },
+    {
+      "question": "In what year did Turing's portrait first appear on the Bank of England £50 note?",
+      "options": [
+        "2009",
+        "2013",
+        "2019",
+        "2021"
+      ],
+      "answer": "2021",
+      "difficulty": "medium",
+      "explanation": "The article states his portrait appears on the £50 note, first released on 23 June 2021."
+    },
+    {
+      "question": "Which specific chemical reaction did Turing predict in his work on mathematical biology?",
+      "options": [
+        "The Belousov–Zhabotinsky reaction",
+        "The Morphogenesis reaction",
+        "The Cyanide reaction",
+        "The Indian Civil Service reaction"
+      ],
+      "answer": "The Belousov–Zhabotinsky reaction",
+      "difficulty": "medium",
+      "explanation": "Turing predicted oscillating chemical reactions such as the Belousov–Zhabotinsky reaction, which was first observed in the 1960s."
+    },
+    {
+      "question": "What was the name of the computer design Turing worked on while at the National Physical Laboratory?",
+      "options": [
+        "The Manchester Computer",
+        "The Automatic Computing Engine",
+        "The Ultra Intelligence",
+        "The Bletchley Machine"
+      ],
+      "answer": "The Automatic Computing Engine",
+      "difficulty": "hard",
+      "explanation": "After the war, Turing worked at the National Physical Laboratory where he designed the Automatic Computing Engine (ACE)."
+    },
+    {
+      "question": "Where was Alan Turing's father, Julius Mathison Turing, stationed with the Indian Civil Service at the time of Alan's birth?",
+      "options": [
+        "Maida Vale",
+        "Chatrapur",
+        "Madras",
+        "Odisha"
+      ],
+      "answer": "Chatrapur",
+      "difficulty": "hard",
+      "explanation": "The text states his father was on leave from his position with the Indian Civil Service at Chatrapur."
+    },
+    {
+      "question": "What legal alternative did Turing accept in 1952 to avoid a prison sentence?",
+      "options": [
+        "A public apology",
+        "Hormone treatment",
+        "A royal pardon",
+        "Exile to the Netherlands"
+      ],
+      "answer": "Hormone treatment",
+      "difficulty": "medium",
+      "explanation": "In 1952, Turing accepted hormone treatment (chemical castration) as an alternative to prison following his prosecution for homosexual acts."
+    }
+  ],
+  "related_topics": [
+    "Theoretical computer science",
+    "Cryptanalysis",
+    "Enigma machine",
+    "Morphogenesis",
+    "Mathematical biology"
+  ],
+  "created_at": "2026-02-12T00:12:50.298750+05:30"
+}

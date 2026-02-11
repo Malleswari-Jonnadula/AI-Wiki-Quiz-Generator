@@ -43,30 +43,41 @@ export default function GenerateTab() {
           Paste any Wikipedia article URL to generate an AI-powered quiz.
         </p>
 
-        <div style={{ display: 'flex', gap: 8 }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
           <input
             value={url}
             onChange={e => { setUrl(e.target.value); setPreview(null); }}
             onBlur={() => handlePreview()}
             placeholder='https://en.wikipedia.org/wiki/Alan_Turing'
             style={{
-              flex: 1, padding: '12px 16px', borderRadius: 10,
-              fontSize: 14, border: '1.5px solid #d1d5db', outline: 'none',
+              width: '100%',
+              padding: '14px 16px',
+              borderRadius: 12,
+              fontSize: 15,
+              border: '1.5px solid #d1d5db',
+              outline: 'none',
             }}
           />
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
           <button
             onClick={handleGenerate}
             disabled={loading || !url}
             style={{
-              padding: '12px 28px', borderRadius: 10,
-              background: loading ? '#93c5fd' : '#2563eb',
-              color: '#fff', border: 'none',
-              cursor: loading ? 'wait' : 'pointer',
-              fontSize: 15, fontWeight: 700, whiteSpace: 'nowrap',
-            }}
+        padding: '12px 36px',
+        borderRadius: 12,
+        background: loading ? '#93c5fd' : '#2563eb',
+        color: '#fff',
+        border: 'none',
+        cursor: loading ? 'wait' : 'pointer',
+        fontSize: 18,
+        fontWeight: 700,
+        minWidth: 200,
+        transition: 'all 0.2s ease',
+      }}
           >
             {loading ? 'Generating...' : 'Generate Quiz'}
           </button>
+        </div>
         </div>
 
         {preview && (
@@ -78,9 +89,9 @@ export default function GenerateTab() {
       </div>
 
       {loading && (
-        <div style={{ textAlign: 'center', padding: 60, color: '#6b7280' }}>
+        <div style={{ textAlign: 'center', padding: '20px 0',  marginTop: 10,color: '#6b7280' }}>
           <div style={{ fontSize: 40, marginBottom: 16 }}>⚙️</div>
-          <p style={{ fontWeight: 600 }}>Scraping Wikipedia and generating quiz with AI...</p>
+          <p style={{ fontWeight: 600 }}>Generating quiz with AI...</p>
           <p style={{ fontSize: 13 }}>This takes about 15-20 seconds. Please wait!</p>
         </div>
       )}

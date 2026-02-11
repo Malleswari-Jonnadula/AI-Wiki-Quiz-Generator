@@ -1,0 +1,136 @@
+{
+  "id": 4,
+  "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+  "title": "Python (programming language)",
+  "summary": "Pythonis ahigh-level,general-purpose programming language. Its design philosophy emphasizescode readabilitywith the use ofsignificant indentation.[33]Python isdynamically type-checkedandgarbage-collected. It supports multipleprogramming paradigms, includingstructured(particularlyprocedural),object-orientedandfunctional programming. Guido van Rossumbegan working on Python in the late 1980s as a successor to theABCprogramming language. Python 3.0, released in 2008, was a major revision and not completelybackward-compatiblewith earlier versions. Beginning with Python 3.5,[34]capabilities and keywords for typing were added to the language, allowing optionalstatic typing.[35]As of 2026[update], the Python Software Foundation supports Python 3.10, 3.11, 3.12, 3.13, and 3.14, following the project's annual release cycle and five-year support policy. Python 3.15 is currently in the alpha development phase, and the stable release is expected to come out in October 2026.\"[36]Earlier versions in the 3.x series have reached end-of-life and no longer receive security updates. Python has gained widespread use in themachine learningcommunity.[37][38][39][40]It is widely taught as an introductory programming language.[41]Since 2003, Python has consistently ranked in the top ten of the most popular programming languages in theTIOBE Programming Community Index, which ranks based on searches in 24 platforms.[42]",
+  "sections": [
+    "History",
+    "Design philosophy and features",
+    "Syntax and semantics",
+    "Code examples",
+    "Libraries",
+    "Development environments",
+    "Implementations",
+    "Language Development",
+    "Naming",
+    "Languages influenced by Python"
+  ],
+  "key_entities": {
+    "people": [
+      "Guido van Rossum"
+    ],
+    "organizations": [
+      "Python Software Foundation",
+      "Centrum Wiskunde & Informatica (CWI)"
+    ],
+    "locations": [
+      "Netherlands"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What inspired the name of the Python programming language?",
+      "options": [
+        "A species of large snake",
+        "The British comedy series Monty Python's Flying Circus",
+        "The ABC programming language",
+        "The Amoeba operating system"
+      ],
+      "answer": "The British comedy series Monty Python's Flying Circus",
+      "difficulty": "easy",
+      "explanation": "The article states the name Python derives from the British comedy series Monty Python's Flying Circus."
+    },
+    {
+      "question": "Who is the creator of the Python programming language?",
+      "options": [
+        "Bjarne Stroustrup",
+        "James Gosling",
+        "Guido van Rossum",
+        "Dennis Ritchie"
+      ],
+      "answer": "Guido van Rossum",
+      "difficulty": "easy",
+      "explanation": "The article identifies Guido van Rossum as the person who began working on Python in the late 1980s."
+    },
+    {
+      "question": "Which programming language was Python designed to succeed?",
+      "options": [
+        "SETL",
+        "ABC",
+        "C++",
+        "Java"
+      ],
+      "answer": "ABC",
+      "difficulty": "medium",
+      "explanation": "The text mentions that Python was designed as a successor to the ABC programming language."
+    },
+    {
+      "question": "Starting with Python 3.5, what capability was added to the language to allow optional static typing?",
+      "options": [
+        "List comprehensions",
+        "Keywords for typing",
+        "Cycle-detecting garbage collection",
+        "Unicode support"
+      ],
+      "answer": "Keywords for typing",
+      "difficulty": "medium",
+      "explanation": "The article states that beginning with Python 3.5, capabilities and keywords for typing were added to allow optional static typing."
+    },
+    {
+      "question": "What is the standard support policy for Python releases mentioned in the text?",
+      "options": [
+        "Five years of full support",
+        "Two years of full support followed by three years of security support",
+        "Annual releases with no security updates",
+        "Ten years of backward-compatible updates"
+      ],
+      "answer": "Two years of full support followed by three years of security support",
+      "difficulty": "medium",
+      "explanation": "According to the article, releases receive two years of full support followed by three years of security support."
+    },
+    {
+      "question": "In what year was the first version of Python (0.9.0) released?",
+      "options": [
+        "1989",
+        "1991",
+        "2000",
+        "2008"
+      ],
+      "answer": "1991",
+      "difficulty": "hard",
+      "explanation": "The article states that Van Rossum first released Python in 1991 as Python 0.9.0."
+    },
+    {
+      "question": "Which unofficial Python implementation still supports Python 2 with backported security updates?",
+      "options": [
+        "CPython",
+        "Jython",
+        "PyPy",
+        "IronPython"
+      ],
+      "answer": "PyPy",
+      "difficulty": "hard",
+      "explanation": "The text notes that while Python 2.7 is officially unsupported, the unofficial implementation PyPy continues to support it with backported security updates."
+    },
+    {
+      "question": "What governance structure was established in January 2019 to lead the Python project?",
+      "options": [
+        "A single Benevolent Dictator for Life",
+        "A five-member Steering Council",
+        "The Python Software Foundation Board",
+        "The CWI Research Group"
+      ],
+      "answer": "A five-member Steering Council",
+      "difficulty": "medium",
+      "explanation": "The article mentions that in January 2019, active Python core developers elected a five-member Steering Council to lead the project."
+    }
+  ],
+  "related_topics": [
+    "Machine learning",
+    "Object-oriented programming",
+    "Functional programming",
+    "Garbage collection",
+    "List comprehensions"
+  ],
+  "created_at": "2026-02-12T00:05:39.239859+05:30"
+}

@@ -1,0 +1,143 @@
+{
+  "id": 6,
+  "url": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+  "title": "Mahatma Gandhi",
+  "summary": "Mohandas Karamchand Gandhi[c](2October 1869 – 30January 1948)[2]was an Indian lawyer,anti-colonial nationalist, andpolitical thinkerwho employednonviolent resistanceto lead the successfulcampaign for India's independencefromBritish rule. He inspired movements forcivil rightsand freedom across the world. The honorificMahātmā(fromSanskrit, meaning great-souled, or venerable), first applied to him inSouth Africain 1914, is used worldwide.[3] Born and raised in aHindufamily in coastalGujarat, Gandhi was trained in the law at theInner Templein London and wascalled to the barat the age of 22. After two uncertain years in India, where he was unable to start a successful law practice, Gandhi moved to South Africa in 1893 to represent an Indian merchant in a lawsuit. He went on to live in South Africa for the next 21 years. Here, Gandhi raised a family and first employed nonviolent resistance in a campaign for civil rights. In 1915, aged 45, he returned to India and soon set about organising peasants, farmers, and urban labourers to protest against discrimination and excessive land tax. Assuming leadership of theIndian National Congressin 1921, Gandhi led nationwide campaigns for easing poverty, expanding women's rights, building religious and ethnic amity, endinguntouchability, and, above all, achievingswarajor self-rule. Gandhi adopted the shortdhotiwoven withhand-spunyarn as a mark of identification with India's rural poor. He began to live in aself-sufficient residential community, to eat simple food, and undertakelong fastsas a means of both introspection and political protest. Bringing anti-colonial nationalism to the common Indians, Gandhi led them in challenging the British-imposedsalt taxwith the 400 km (250 mi)Dandi Salt Marchin 1930 and in calling for the British toquit Indiain 1942. He was imprisoned many times and for many years in both South Africa and India.",
+  "sections": [
+    "Early life and background",
+    "Three years in London",
+    "Civil rights activist in South Africa (1893–1914)",
+    "Struggle for Indian independence (1915–1947)",
+    "Death",
+    "Principles, practices, and beliefs",
+    "Literary works",
+    "Legacy",
+    "General and cited references"
+  ],
+  "key_entities": {
+    "people": [
+      "Mohandas Karamchand Gandhi",
+      "Nathuram Godse"
+    ],
+    "organizations": [
+      "Indian National Congress",
+      "Inner Temple"
+    ],
+    "locations": [
+      "India",
+      "South Africa",
+      "London",
+      "Gujarat",
+      "Delhi",
+      "Pakistan",
+      "Punjab",
+      "Bengal"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What does the Sanskrit honorific 'Mahatma' mean?",
+      "options": [
+        "Father of the Nation",
+        "Great-souled",
+        "Nonviolent leader",
+        "Venerable teacher"
+      ],
+      "answer": "Great-souled",
+      "difficulty": "easy",
+      "explanation": "According to the article, the honorific Mahatma comes from Sanskrit and means 'great-souled, or venerable'."
+    },
+    {
+      "question": "In which country was the honorific 'Mahatma' first applied to Gandhi in 1914?",
+      "options": [
+        "India",
+        "England",
+        "South Africa",
+        "Pakistan"
+      ],
+      "answer": "South Africa",
+      "difficulty": "easy",
+      "explanation": "The text states that the honorific was first applied to him in South Africa in 1914."
+    },
+    {
+      "question": "How many years did Gandhi live in South Africa?",
+      "options": [
+        "2 years",
+        "15 years",
+        "21 years",
+        "45 years"
+      ],
+      "answer": "21 years",
+      "difficulty": "medium",
+      "explanation": "The article mentions that after moving to South Africa in 1893, Gandhi 'went on to live in South Africa for the next 21 years'."
+    },
+    {
+      "question": "What was the distance of the Dandi Salt March led by Gandhi in 1930?",
+      "options": [
+        "250 km",
+        "400 km",
+        "100 km",
+        "500 km"
+      ],
+      "answer": "400 km",
+      "difficulty": "medium",
+      "explanation": "The text specifies that Gandhi led the '400 km (250 mi) Dandi Salt March in 1930'."
+    },
+    {
+      "question": "What was the specific reason Gandhi moved to South Africa in 1893?",
+      "options": [
+        "To start a new law practice",
+        "To represent an Indian merchant in a lawsuit",
+        "To lead a civil rights campaign",
+        "To escape British rule in India"
+      ],
+      "answer": "To represent an Indian merchant in a lawsuit",
+      "difficulty": "medium",
+      "explanation": "The article states that Gandhi 'moved to South Africa in 1893 to represent an Indian merchant in a lawsuit'."
+    },
+    {
+      "question": "What was the full name of Gandhi's father, who served as the dewan of Porbandar?",
+      "options": [
+        "Mohandas Karamchand Gandhi",
+        "Karamchand Uttamchand Gandhi",
+        "Nathuram Godse Gandhi",
+        "Putlibai Uttamchand Gandhi"
+      ],
+      "answer": "Karamchand Uttamchand Gandhi",
+      "difficulty": "hard",
+      "explanation": "The text identifies his father as 'Karamchand Uttamchand Gandhi (1822–1885)'."
+    },
+    {
+      "question": "On what date did Gandhi begin his final hunger strike in Delhi?",
+      "options": [
+        "15 August 1947",
+        "30 January 1948",
+        "12 January 1948",
+        "2 October 1869"
+      ],
+      "answer": "12 January 1948",
+      "difficulty": "hard",
+      "explanation": "The article states: 'The last of these [hunger strikes] was begun in Delhi on 12 January 1948, when Gandhi was 78'."
+    },
+    {
+      "question": "From which village did Gandhi's family originate?",
+      "options": [
+        "Porbandar",
+        "Kutiana",
+        "Pune",
+        "Gujarat"
+      ],
+      "answer": "Kutiana",
+      "difficulty": "hard",
+      "explanation": "The text mentions that 'His family originated from the then village of Kutiana in what was then Junagadh State'."
+    }
+  ],
+  "related_topics": [
+    "Nonviolent resistance",
+    "Indian independence movement",
+    "Civil rights",
+    "Salt March",
+    "Partition of India"
+  ],
+  "created_at": "2026-02-12T00:20:22.318693+05:30"
+}

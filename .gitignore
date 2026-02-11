@@ -21,14 +21,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-backend/venv/
-backend/__pycache__/
-backend/**/__pycache__/
-*.pyc
-.env
-.env.local
-frontend/node_modules/
-frontend/dist/
 # Python
 backend/venv/
 backend/__pycache__/
