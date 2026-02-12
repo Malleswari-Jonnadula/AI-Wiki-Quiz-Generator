@@ -13,16 +13,13 @@ def scrape_wikipedia(url: str) -> Dict[str, Any]:
     raw_html = response.text
     soup = BeautifulSoup(raw_html, 'lxml')
 
-    # Extract title
     title_tag = soup.find('h1', {'id': 'firstHeading'})
     title = title_tag.get_text(strip=True) if title_tag else 'Unknown Title'
 
-    # Extract main content
     content_div = soup.find('div', {'id': 'mw-content-text'})
     if not content_div:
         raise ValueError('Could not find main content on this page')
 
-    # Remove unwanted elements - FIXED VERSION
     for tag in content_div.find_all(['table', 'sup', 'div']):
         try:
             tag_classes = tag.get('class')
@@ -30,10 +27,8 @@ def scrape_wikipedia(url: str) -> Dict[str, Any]:
                 if any(c in ['reflist', 'navbox', 'hatnote', 'thumb'] for c in tag_classes):
                     tag.decompose()
         except (AttributeError, TypeError):
-            # Skip if there's any issue with this tag
             continue
 
-    # Extract sections
     sections = []
     for h2 in content_div.find_all('h2'):
         try:
@@ -44,7 +39,6 @@ def scrape_wikipedia(url: str) -> Dict[str, Any]:
         except (AttributeError, TypeError):
             continue
 
-    # Extract summary
     paragraphs = content_div.find_all('p')
     summary_parts = []
     for p in paragraphs[:8]:
@@ -58,7 +52,6 @@ def scrape_wikipedia(url: str) -> Dict[str, Any]:
             continue
     summary = ' '.join(summary_parts)
 
-    # Extract full text for LLM
     all_paragraphs = []
     for p in paragraphs:
         try:

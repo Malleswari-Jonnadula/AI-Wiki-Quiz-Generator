@@ -21,14 +21,12 @@ function App() {
   return (
     <div style={{ minHeight: '100vh', background: '#f1f5f9' }}>
       
-      {/* HEADER */}
       <header
         style={{
           background: '#1e293b',
           boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
         }}
       >
-        {/* Centered Container */}
         <div
           style={{
             maxWidth: 1100,
@@ -39,7 +37,6 @@ function App() {
             justifyContent: 'space-between',
           }}
         >
-          {/* Title - 2 Lines */}
           <div>
             <div
               style={{
@@ -62,7 +59,6 @@ function App() {
             </div>
           </div>
 
-          {/* Tabs */}
           <div
             style={{
               background: '#334155',
@@ -89,7 +85,6 @@ function App() {
         </div>
       </header>
 
-      {/* Main */}
       <main style={{ maxWidth: 900, margin: '40px auto', padding: '0 16px' }}>
         {tab === 'generate' ? <GenerateTab /> : <HistoryTab />}
       </main>

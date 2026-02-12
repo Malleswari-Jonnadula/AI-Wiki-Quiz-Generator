@@ -61,34 +61,28 @@ Return this exact JSON:
 
 def extract_text_from_response(content):
     """Extract text from LangChain response which can be dict, list, or string"""
-    # If it's a dict with 'text' key (like {'type': 'text', 'text': '...'})
     if isinstance(content, dict) and 'text' in content:
         return content['text']
     
-    # If it's a list, process first element
     if isinstance(content, list):
         if len(content) > 0:
             return extract_text_from_response(content[0])
         return ""
     
-    # If it's already a string
     if isinstance(content, str):
         return content
     
-    # Fallback: convert to string
     return str(content)
 
 def clean_json(text: str) -> str:
     text = text.strip()
     
-    # Remove markdown code fences
     text = re.sub(r'^```json\s*', '', text, flags=re.MULTILINE)
     text = re.sub(r'^```\s*', '', text, flags=re.MULTILINE)
     text = re.sub(r'\s*```$', '', text, flags=re.MULTILINE)
     
     text = text.strip()
     
-    # Try to find JSON object in the text
     json_match = re.search(r'\{.*\}', text, re.DOTALL)
     if json_match:
         text = json_match.group(0)
@@ -102,7 +96,6 @@ def generate_quiz(title: str, article_text: str) -> list:
         'article_text': article_text[:4000]
     })
     
-    # Extract text from response
     content = extract_text_from_response(response.content)
     
     print(f"Extracted text (first 500 chars): {content[:500]}")
@@ -124,7 +117,6 @@ def extract_entities_and_topics(title: str, article_text: str) -> dict:
         'article_text': article_text[:3000]
     })
     
-    # Extract text from response
     content = extract_text_from_response(response.content)
     
     print(f"Extracted entity text (first 500 chars): {content[:500]}")

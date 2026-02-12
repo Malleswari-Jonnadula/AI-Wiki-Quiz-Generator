@@ -12,25 +12,23 @@ def generate_quiz(request: schemas.QuizRequest, db: Session = Depends(get_db)):
     if 'wikipedia.org/wiki/' not in url:
         raise HTTPException(status_code=400, detail='Please provide a valid Wikipedia URL.')
 
-    # Return cached result if exists
     existing = crud.get_quiz_by_url(db, url)
     if existing:
         return existing
 
-    # Scrape
     try:
         scraped = scraper.scrape_wikipedia(url)
     except Exception as e:
         raise HTTPException(status_code=422, detail=f'Scraping failed: {str(e)}')
 
-    # Generate with LLM
+  
     try:
         quiz_questions = llm_service.generate_quiz(scraped['title'], scraped['full_text'])
         entity_data = llm_service.extract_entities_and_topics(scraped['title'], scraped['full_text'])
     except Exception as e:
         raise HTTPException(status_code=500, detail=f'LLM failed: {str(e)}')
 
-    # Save to DB
+   
     saved = crud.create_quiz(db, {
         'url': url,
         'title': scraped['title'],
